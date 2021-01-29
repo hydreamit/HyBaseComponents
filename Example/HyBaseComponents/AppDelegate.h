@@ -1,5 +1,5 @@
 //
-//  HYAppDelegate.h
+//  AppDelegate.h
 //  HyBaseComponents
 //
 //  Created by hydreamit on 01/29/2021.
@@ -8,7 +8,7 @@
 
 @import UIKit;
 
-@interface HYAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

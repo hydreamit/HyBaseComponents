@@ -1,18 +1,18 @@
 //
-//  HYViewController.m
+//  ViewController.m
 //  HyBaseComponents
 //
 //  Created by hydreamit on 01/29/2021.
 //  Copyright (c) 2021 hydreamit. All rights reserved.
 //
 
-#import "HYViewController.h"
+#import "ViewController.h"
 
-@interface HYViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation HYViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {

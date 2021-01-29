@@ -1,5 +1,5 @@
 //
-//  HYViewController.h
+//  ViewController.h
 //  HyBaseComponents
 //
 //  Created by hydreamit on 01/29/2021.
@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface HYViewController : UIViewController
+@interface ViewController : UIViewController
 
 @end
