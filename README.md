@@ -18,6 +18,18 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'HyBaseComponents'
+
+pod 'HyBaseComponents/TipView'
+
+pod 'HyBaseComponents/Network'
+
+pod 'HyBaseComponents/ModelParser'
+
+pod 'HyBaseComponents/RefreshView'
+
+pod 'HyBaseComponents/Monitor'
+
+pod 'HyBaseComponents/MVVM'
 ```
 
 ## Author
