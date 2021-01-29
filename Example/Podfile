@@ -1,7 +1,4 @@
 
-source 'https://github.com/hydreamit/Specs.git'
-source 'https://cdn.cocoapods.org/'
-
 use_frameworks!
 platform :ios, '9.0'
 
@@ -15,42 +12,3 @@ target 'HyBaseComponents_Example' do
   end
 end
 
-
-#s.subspec 'Categories' do |ss|
-#    ss.source_files = 'HyBaseComponents/Classes/Categories/**/*'
-#    ss.dependency 'ReactiveObjC'
-#end
-#
-#s.subspec 'TipView' do |ss|
-#    ss.source_files = 'HyBaseComponents/Classes/TipView/**/*'
-#end
-#
-#s.subspec 'Network' do |ss|
-#    ss.source_files = 'HyBaseComponents/Classes/Network/**/*'
-#    ss.dependency 'AFNetworking'
-#    ss.dependency 'YYCache'
-#    ss.dependency 'HyBaseComponents/TipView'
-#end
-#
-#s.subspec 'ModelParser' do |ss|
-#    ss.source_files = 'HyBaseComponents/Classes/ModelParser/**/*'
-#    ss.dependency 'YYModel'
-#    ss.dependency 'MJExtension'
-#end
-#
-#s.subspec 'RefreshView' do |ss|
-#    ss.source_files = 'HyBaseComponents/Classes/RefreshView/**/*'
-#    ss.dependency 'MJRefresh'
-#    ss.dependency 'KafkaRefresh'
-#end
-#
-#s.subspec 'MVVM' do |ss|
-#    ss.source_files = 'HyBaseComponents/Classes/MVVM/**/*'
-#    ss.dependency 'HyBaseComponents/Network'
-#    ss.dependency 'HyBaseComponents/ModelParser'
-#    ss.dependency 'HyBaseComponents/Categories'
-#end
-#
-#s.subspec 'Monitor' do |ss|
-#    ss.source_files = 'HyBaseComponents/Classes/Monitor/**/*'
-#end
