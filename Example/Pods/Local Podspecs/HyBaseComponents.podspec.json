@@ -1,0 +1,91 @@
+{
+  "name": "HyBaseComponents",
+  "version": "0.0.1",
+  "summary": "HyBaseComponents",
+  "description": "TODO: Hy Base Components",
+  "homepage": "https://github.com/hydreamit/HyBaseComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hydreamit": "hydreamit@163.com"
+  },
+  "source": {
+    "git": "https://github.com/hydreamit/HyBaseComponents.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "TipView",
+      "source_files": "HyBaseComponents/Classes/TipView/**/*"
+    },
+    {
+      "name": "Network",
+      "source_files": "HyBaseComponents/Classes/Network/**/*",
+      "dependencies": {
+        "AFNetworking": [
+
+        ],
+        "YYCache": [
+
+        ],
+        "HyBaseComponents/TipView": [
+
+        ]
+      }
+    },
+    {
+      "name": "ModelParser",
+      "source_files": "HyBaseComponents/Classes/ModelParser/**/*",
+      "dependencies": {
+        "YYModel": [
+
+        ],
+        "MJExtension": [
+
+        ]
+      }
+    },
+    {
+      "name": "RefreshView",
+      "source_files": "HyBaseComponents/Classes/RefreshView/**/*",
+      "dependencies": {
+        "MJRefresh": [
+
+        ],
+        "KafkaRefresh": [
+
+        ]
+      }
+    },
+    {
+      "name": "Monitor",
+      "source_files": "HyBaseComponents/Classes/Monitor/**/*"
+    },
+    {
+      "name": "MVVM",
+      "source_files": "HyBaseComponents/Classes/MVVM/**/*",
+      "dependencies": {
+        "ReactiveObjC": [
+
+        ],
+        "HyCategoriess": [
+
+        ],
+        "HyBaseComponents/Network": [
+
+        ],
+        "HyBaseComponents/ModelParser": [
+
+        ],
+        "HyBaseComponents/RefreshView": [
+
+        ]
+      }
+    }
+  ]
+}

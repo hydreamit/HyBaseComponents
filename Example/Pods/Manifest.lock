@@ -1,0 +1,116 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - HyBaseComponents (0.0.1):
+    - HyBaseComponents/ModelParser (= 0.0.1)
+    - HyBaseComponents/Monitor (= 0.0.1)
+    - HyBaseComponents/MVVM (= 0.0.1)
+    - HyBaseComponents/Network (= 0.0.1)
+    - HyBaseComponents/RefreshView (= 0.0.1)
+    - HyBaseComponents/TipView (= 0.0.1)
+  - HyBaseComponents/ModelParser (0.0.1):
+    - MJExtension
+    - YYModel
+  - HyBaseComponents/Monitor (0.0.1)
+  - HyBaseComponents/MVVM (0.0.1):
+    - HyBaseComponents/ModelParser
+    - HyBaseComponents/Network
+    - HyBaseComponents/RefreshView
+    - HyCategoriess
+    - ReactiveObjC
+  - HyBaseComponents/Network (0.0.1):
+    - AFNetworking
+    - HyBaseComponents/TipView
+    - YYCache
+  - HyBaseComponents/RefreshView (0.0.1):
+    - KafkaRefresh
+    - MJRefresh
+  - HyBaseComponents/TipView (0.0.1)
+  - HyCategoriess (1.0.0)
+  - KafkaRefresh (1.5.0):
+    - KafkaRefresh/Category (= 1.5.0)
+    - KafkaRefresh/Configuration (= 1.5.0)
+    - KafkaRefresh/Core (= 1.5.0)
+    - KafkaRefresh/Default (= 1.5.0)
+    - KafkaRefresh/Style (= 1.5.0)
+    - KafkaRefresh/UIKit (= 1.5.0)
+  - KafkaRefresh/Category (1.5.0)
+  - KafkaRefresh/Configuration (1.5.0):
+    - KafkaRefresh/UIKit/FootKit
+    - KafkaRefresh/UIKit/HeadKit
+  - KafkaRefresh/Core (1.5.0):
+    - KafkaRefresh/Category
+  - KafkaRefresh/Default (1.5.0):
+    - KafkaRefresh/Style
+  - KafkaRefresh/Style (1.5.0)
+  - KafkaRefresh/UIKit (1.5.0):
+    - KafkaRefresh/UIKit/FootKit (= 1.5.0)
+    - KafkaRefresh/UIKit/HeadKit (= 1.5.0)
+    - KafkaRefresh/UIKit/LayerKit (= 1.5.0)
+  - KafkaRefresh/UIKit/FootKit (1.5.0):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/HeadKit (1.5.0):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/LayerKit (1.5.0):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Default
+  - MJExtension (3.2.4)
+  - MJRefresh (3.5.0)
+  - ReactiveObjC (3.1.1)
+  - YYCache (1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - HyBaseComponents (from `../`)
+
+SPEC REPOS:
+  https://github.com/hydreamit/Specs:
+    - HyCategoriess
+  trunk:
+    - AFNetworking
+    - KafkaRefresh
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - YYCache
+    - YYModel
+
+EXTERNAL SOURCES:
+  HyBaseComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  HyBaseComponents: ce7d574b8cd856cfd99a52ddb2f99adf9fe67b27
+  HyCategoriess: 02998e7abe2fc670152f2373a74cc7f5048eadc6
+  KafkaRefresh: 01645b1509b8647809f6bb666629c80855bd3fdd
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 055e74ef7834007b8b91605eb7572886761b81b8
+
+COCOAPODS: 1.9.3
