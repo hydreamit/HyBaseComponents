@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HyMultipartFormDataProtocol.h"
-#import "AFURLRequestSerialization.h"
+#import <AFNetworking/AFURLRequestSerialization.h>
 
 
 NS_ASSUME_NONNULL_BEGIN

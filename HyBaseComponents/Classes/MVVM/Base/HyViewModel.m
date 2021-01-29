@@ -11,7 +11,7 @@
 #import "NSObject+HyProtocol.h"
 #import "HyNetworkManager.h"
 #import "NSObject+HyProtocol.h"
-#import "HyCategories.h"
+#import <HyCategoriess/HyCategories.h>
 #import "HyModel.h"
 
 

@@ -8,7 +8,7 @@
 
 #import "HyCollectionView.h"
 #import "HyListViewModel.h"
-#import "HyCategories.h"
+#import <HyCategoriess/HyCategories.h>
 
 
 @interface HyCollectionView ()

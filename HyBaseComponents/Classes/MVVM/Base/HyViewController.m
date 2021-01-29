@@ -8,7 +8,7 @@
 
 #import "HyViewController.h"
 #import "NSObject+HyProtocol.h"
-#import "HyCategories.h"
+#import <HyCategoriess/HyCategories.h>
 
 @interface HyViewController ()
 @property (nonatomic,strong) NSDictionary *parameter;

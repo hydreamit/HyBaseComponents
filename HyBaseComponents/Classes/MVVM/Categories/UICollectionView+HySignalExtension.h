@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <ReactiveObjC/ReactiveObjC.h>
-#import "HyCategories.h"
+#import <HyCategoriess/HyCategories.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
