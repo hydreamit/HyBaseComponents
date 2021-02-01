@@ -17,7 +17,7 @@ HyBaseComponents is available through [CocoaPods](https://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-repo url --> 'https://github.com/hydreamit/Specs'
+source 'https://github.com/hydreamit/Specs'
 
 pod 'HyBaseComponents'
 
